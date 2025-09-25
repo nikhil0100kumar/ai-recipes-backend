@@ -1,0 +1,26 @@
+# COMMAND LINE DEPLOYMENT GUIDE
+# Run these commands one by one
+
+# STEP 1: Add your GitHub repository as remote
+# Replace YOUR_GITHUB_USERNAME with your actual GitHub username
+git branch -M main
+git remote add origin https://github.com/YOUR_GITHUB_USERNAME/ai-recipes-backend.git
+
+# STEP 2: Push your code to GitHub
+git push -u origin main
+
+# If you get authentication error, use:
+# git push -u origin main --force
+
+# STEP 3: Install Render CLI (optional - for command line deployment)
+# First ensure npm is installed, then:
+npm install -g @render-oss/render-cli
+
+# STEP 4: Login to Render via CLI
+render login
+
+# STEP 5: Deploy to Render via CLI
+render deploy --service-name ai-recipes-backend
+
+# Alternative: Use Render's blueprint deployment
+# This uses the render.yaml file we already created
