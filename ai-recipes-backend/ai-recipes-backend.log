@@ -1,0 +1,362 @@
+2025-09-24 09:02:13,670 - asyncio - DEBUG - Using selector: SelectSelector
+2025-09-24 09:02:13,757 - main - INFO - Starting AI Recipes Backend...
+2025-09-24 09:02:13,758 - main - INFO - Environment: Development
+2025-09-24 09:02:13,758 - main - INFO - Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://10.0.2.2:8000']
+2025-09-24 09:02:13,758 - main - INFO - Testing Gemini API connection...
+2025-09-24 09:02:13,816 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-24 09:06:34,019 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-09-24 09:06:34,021 - python_multipart.multipart - DEBUG - Calling on_header_field with data[74:86]
+2025-09-24 09:06:34,026 - python_multipart.multipart - DEBUG - Calling on_header_value with data[88:112]
+2025-09-24 09:06:34,027 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-09-24 09:06:34,028 - python_multipart.multipart - DEBUG - Calling on_header_field with data[114:133]
+2025-09-24 09:06:34,030 - python_multipart.multipart - DEBUG - Calling on_header_value with data[135:191]
+2025-09-24 09:06:34,031 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-09-24 09:06:34,033 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-09-24 09:06:34,035 - python_multipart.multipart - DEBUG - Calling on_part_data with data[195:11779]
+2025-09-24 09:06:34,037 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:86880]
+2025-09-24 09:06:34,042 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:56676]
+2025-09-24 09:06:34,044 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-09-24 09:06:34,045 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-09-24 09:06:34,048 - main - INFO - Received image analysis request: scaled_1000047993.jpg
+2025-09-24 09:06:54,038 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-09-24 09:06:54,039 - python_multipart.multipart - DEBUG - Calling on_header_field with data[74:86]
+2025-09-24 09:06:54,041 - python_multipart.multipart - DEBUG - Calling on_header_value with data[88:112]
+2025-09-24 09:06:54,042 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-09-24 09:06:54,042 - python_multipart.multipart - DEBUG - Calling on_header_field with data[114:133]
+2025-09-24 09:06:54,043 - python_multipart.multipart - DEBUG - Calling on_header_value with data[135:191]
+2025-09-24 09:06:54,044 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-09-24 09:06:54,044 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-09-24 09:06:54,046 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:23168]
+2025-09-24 09:06:54,048 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:11584]
+2025-09-24 09:06:54,058 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:46336]
+2025-09-24 09:06:54,066 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:40544]
+2025-09-24 09:06:54,080 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:33508]
+2025-09-24 09:06:54,080 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-09-24 09:06:54,081 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-09-24 09:06:54,081 - main - INFO - Received image analysis request: scaled_1000047993.jpg
+2025-09-24 09:07:04,898 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-09-24 09:07:04,899 - python_multipart.multipart - DEBUG - Calling on_header_field with data[74:86]
+2025-09-24 09:07:04,901 - python_multipart.multipart - DEBUG - Calling on_header_value with data[88:112]
+2025-09-24 09:07:04,901 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-09-24 09:07:04,902 - python_multipart.multipart - DEBUG - Calling on_header_field with data[114:133]
+2025-09-24 09:07:04,903 - python_multipart.multipart - DEBUG - Calling on_header_value with data[135:191]
+2025-09-24 09:07:04,903 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-09-24 09:07:04,904 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-09-24 09:07:04,905 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:11584]
+2025-09-24 09:07:04,906 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:13032]
+2025-09-24 09:07:04,909 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:15928]
+2025-09-24 09:07:04,913 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:26064]
+2025-09-24 09:07:04,938 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:88532]
+2025-09-24 09:07:04,939 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-09-24 09:07:04,939 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-09-24 09:07:04,940 - main - INFO - Received image analysis request: scaled_1000047993.jpg
+2025-09-24 09:09:12,520 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-09-24 09:09:12,521 - python_multipart.multipart - DEBUG - Calling on_header_field with data[74:86]
+2025-09-24 09:09:12,522 - python_multipart.multipart - DEBUG - Calling on_header_value with data[88:98]
+2025-09-24 09:09:12,522 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-09-24 09:09:12,522 - python_multipart.multipart - DEBUG - Calling on_header_field with data[100:119]
+2025-09-24 09:09:12,522 - python_multipart.multipart - DEBUG - Calling on_header_value with data[121:165]
+2025-09-24 09:09:12,522 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-09-24 09:09:12,523 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-09-24 09:09:12,523 - python_multipart.multipart - DEBUG - Calling on_part_data with data[169:7409]
+2025-09-24 09:09:12,526 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:24616]
+2025-09-24 09:09:12,530 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:24488]
+2025-09-24 09:09:12,531 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-09-24 09:09:12,531 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-09-24 09:09:12,532 - main - INFO - Received image analysis request: image.jpg
+2025-09-24 09:09:12,533 - main - DEBUG - Analyzing image: 56344 bytes
+2025-09-24 09:09:12,596 - PIL.TiffImagePlugin - DEBUG - tag: ImageWidth (256) - type: long (4) - value: b'\x00\x00\x01\xe6'
+2025-09-24 09:09:12,597 - PIL.TiffImagePlugin - DEBUG - tag: ImageLength (257) - type: long (4) - value: b'\x00\x00\x048'
+2025-09-24 09:09:12,598 - PIL.TiffImagePlugin - DEBUG - tag: Software (305) - type: string (2) Tag Location: 46 - Data Location: 86 - value: b'Android V3.2-250723-1800\x00'
+2025-09-24 09:09:12,599 - PIL.TiffImagePlugin - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\x83'
+2025-09-24 09:09:12,599 - PIL.TiffImagePlugin - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+2025-09-24 09:09:12,600 - PIL.TiffImagePlugin - DEBUG - tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 111 - value: b'2025:09:23 19:42:17\x00'
+2025-09-24 09:09:12,600 - gemini_service - DEBUG - Calling Gemini API (attempt 1/3)
+2025-09-24 09:09:12,615 - PIL.Image - DEBUG - Importing AvifImagePlugin
+2025-09-24 09:09:12,617 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-09-24 09:09:12,620 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-09-24 09:09:12,621 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-09-24 09:09:12,623 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-09-24 09:09:12,624 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-09-24 09:09:12,628 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-09-24 09:09:12,633 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-09-24 09:09:12,635 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-09-24 09:09:12,638 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-09-24 09:09:12,640 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-09-24 09:09:12,643 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-09-24 09:09:12,644 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-09-24 09:09:12,647 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-09-24 09:09:12,648 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-09-24 09:09:12,648 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-09-24 09:09:12,650 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-09-24 09:09:12,653 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-09-24 09:09:12,658 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-09-24 09:09:12,661 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-09-24 09:09:12,663 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-09-24 09:09:12,665 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-09-24 09:09:12,667 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-09-24 09:09:12,667 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-09-24 09:09:12,668 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-09-24 09:09:12,671 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-09-24 09:09:12,673 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-09-24 09:09:12,674 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-09-24 09:09:12,676 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-09-24 09:09:12,678 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-09-24 09:09:12,680 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-09-24 09:09:12,682 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-09-24 09:09:12,684 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-09-24 09:09:12,684 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-09-24 09:09:12,693 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-09-24 09:09:12,694 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-09-24 09:09:12,695 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-09-24 09:09:12,695 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-09-24 09:09:12,697 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-09-24 09:09:12,699 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-09-24 09:09:12,700 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-09-24 09:09:12,702 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-09-24 09:09:12,704 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-09-24 09:09:12,707 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-09-24 09:09:12,707 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-09-24 09:09:12,714 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-09-24 09:09:12,716 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-09-24 09:09:12,718 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-09-24 09:09:12,721 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-09-24 09:09:15,558 - gemini_service - DEBUG - Received response from Gemini API
+2025-09-24 09:09:15,562 - gemini_service - INFO - Successfully analyzed image - found 0 ingredients and 0 recipes
+2025-09-24 09:09:15,565 - main - INFO - Analysis completed - Ingredients: 0, Recipes: 0
+2025-09-24 09:09:19,215 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-09-24 09:09:19,216 - python_multipart.multipart - DEBUG - Calling on_header_field with data[74:86]
+2025-09-24 09:09:19,217 - python_multipart.multipart - DEBUG - Calling on_header_value with data[88:98]
+2025-09-24 09:09:19,217 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-09-24 09:09:19,218 - python_multipart.multipart - DEBUG - Calling on_header_field with data[100:119]
+2025-09-24 09:09:19,218 - python_multipart.multipart - DEBUG - Calling on_header_value with data[121:165]
+2025-09-24 09:09:19,218 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-09-24 09:09:19,219 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-09-24 09:09:19,219 - python_multipart.multipart - DEBUG - Calling on_part_data with data[169:8688]
+2025-09-24 09:09:19,220 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:4344]
+2025-09-24 09:09:19,223 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:20272]
+2025-09-24 09:09:19,227 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:8688]
+2025-09-24 09:09:19,248 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:10136]
+2025-09-24 09:09:19,249 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:8688]
+2025-09-24 09:09:19,251 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:15928]
+2025-09-24 09:09:19,256 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:23168]
+2025-09-24 09:09:19,262 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:10136]
+2025-09-24 09:09:19,264 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:45261]
+2025-09-24 09:09:19,265 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-09-24 09:09:19,265 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-09-24 09:09:19,267 - main - INFO - Received image analysis request: image.jpg
+2025-09-24 09:09:19,267 - main - DEBUG - Analyzing image: 155140 bytes
+2025-09-24 09:09:19,269 - PIL.TiffImagePlugin - DEBUG - tag: ImageWidth (256) - type: long (4) - value: b'\x00\x00\x03+'
+2025-09-24 09:09:19,269 - PIL.TiffImagePlugin - DEBUG - tag: ImageLength (257) - type: long (4) - value: b'\x00\x00\x048'
+2025-09-24 09:09:19,270 - PIL.TiffImagePlugin - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00>'
+2025-09-24 09:09:19,270 - PIL.TiffImagePlugin - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+2025-09-24 09:09:19,270 - gemini_service - DEBUG - Calling Gemini API (attempt 1/3)
+2025-09-24 09:09:25,234 - gemini_service - DEBUG - Received response from Gemini API
+2025-09-24 09:09:25,236 - gemini_service - INFO - Successfully analyzed image - found 1 ingredients and 3 recipes
+2025-09-24 09:09:25,240 - main - INFO - Analysis completed - Ingredients: 1, Recipes: 3
+2025-09-24 09:12:57,076 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\main.py')}
+2025-09-24 09:12:57,284 - main - INFO - Shutting down AI Recipes Backend...
+2025-09-24 09:13:00,138 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-24 09:13:02,681 - asyncio - DEBUG - Using selector: SelectSelector
+2025-09-24 09:13:02,730 - main - INFO - Starting AI Recipes Backend...
+2025-09-24 09:13:02,730 - main - INFO - Environment: Development
+2025-09-24 09:13:02,730 - main - INFO - Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://10.0.2.2:8000']
+2025-09-24 09:13:02,731 - main - INFO - Testing Gemini API connection...
+2025-09-24 09:13:02,815 - watchfiles.main - DEBUG - 6 changes detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\__pycache__'), (<Change.added: 1>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\__pycache__\\main.cpython-313.pyc.2359607496880'), (<Change.deleted: 3>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\__pycache__\\main.cpython-313.pyc'), (<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log'), (<Change.added: 1>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\__pycache__\\main.cpython-313.pyc'), (<Change.deleted: 3>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\__pycache__\\main.cpython-313.pyc.2359607496880')}
+2025-09-24 09:13:05,905 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\main.py')}
+2025-09-24 09:13:06,151 - main - INFO - Shutting down AI Recipes Backend...
+2025-09-24 09:13:06,845 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-24 09:13:08,349 - asyncio - DEBUG - Using selector: SelectSelector
+2025-09-24 09:13:08,388 - main - INFO - Starting AI Recipes Backend...
+2025-09-24 09:13:08,389 - main - INFO - Environment: Development
+2025-09-24 09:13:08,389 - main - INFO - Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://10.0.2.2:8000']
+2025-09-24 09:13:08,389 - main - INFO - Testing Gemini API connection...
+2025-09-24 09:13:08,462 - watchfiles.main - DEBUG - 6 changes detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\__pycache__'), (<Change.added: 1>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\__pycache__\\main.cpython-313.pyc.1902518603952'), (<Change.deleted: 3>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\__pycache__\\main.cpython-313.pyc'), (<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log'), (<Change.added: 1>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\__pycache__\\main.cpython-313.pyc'), (<Change.deleted: 3>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\__pycache__\\main.cpython-313.pyc.1902518603952')}
+2025-09-24 09:13:45,475 - watchfiles.main - DEBUG - 1 change detected: {(<Change.added: 1>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\SECURITY.md')}
+2025-09-24 09:17:41,155 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-09-24 09:17:41,156 - python_multipart.multipart - DEBUG - Calling on_header_field with data[74:86]
+2025-09-24 09:17:41,157 - python_multipart.multipart - DEBUG - Calling on_header_value with data[88:98]
+2025-09-24 09:17:41,157 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-09-24 09:17:41,158 - python_multipart.multipart - DEBUG - Calling on_header_field with data[100:119]
+2025-09-24 09:17:41,158 - python_multipart.multipart - DEBUG - Calling on_header_value with data[121:165]
+2025-09-24 09:17:41,159 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-09-24 09:17:41,159 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-09-24 09:17:41,159 - python_multipart.multipart - DEBUG - Calling on_part_data with data[169:59537]
+2025-09-24 09:17:41,160 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:4344]
+2025-09-24 09:17:41,162 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:60936]
+2025-09-24 09:17:41,163 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:5792]
+2025-09-24 09:17:41,169 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:125024]
+2025-09-24 09:17:41,170 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:667]
+2025-09-24 09:17:41,170 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-09-24 09:17:41,171 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-09-24 09:17:41,230 - main - INFO - Received image analysis request: image.jpg
+2025-09-24 09:17:41,231 - main - DEBUG - Analyzing image: 256131 bytes
+2025-09-24 09:17:41,258 - PIL.TiffImagePlugin - DEBUG - tag: ImageWidth (256) - type: long (4) - value: b'\x00\x00\x04\x00'
+2025-09-24 09:17:41,259 - PIL.TiffImagePlugin - DEBUG - tag: ImageLength (257) - type: long (4) - value: b'\x00\x00\x03\x00'
+2025-09-24 09:17:41,259 - PIL.TiffImagePlugin - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00>'
+2025-09-24 09:17:41,259 - PIL.TiffImagePlugin - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+2025-09-24 09:17:41,260 - gemini_service - DEBUG - Calling Gemini API (attempt 1/3)
+2025-09-24 09:17:41,275 - PIL.Image - DEBUG - Importing AvifImagePlugin
+2025-09-24 09:17:41,278 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-09-24 09:17:41,280 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-09-24 09:17:41,282 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-09-24 09:17:41,284 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-09-24 09:17:41,286 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-09-24 09:17:41,290 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-09-24 09:17:41,297 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-09-24 09:17:41,299 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-09-24 09:17:41,302 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-09-24 09:17:41,304 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-09-24 09:17:41,307 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-09-24 09:17:41,309 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-09-24 09:17:41,313 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-09-24 09:17:41,315 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-09-24 09:17:41,315 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-09-24 09:17:41,318 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-09-24 09:17:41,320 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-09-24 09:17:41,326 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-09-24 09:17:41,330 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-09-24 09:17:41,332 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-09-24 09:17:41,335 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-09-24 09:17:41,337 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-09-24 09:17:41,338 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-09-24 09:17:41,338 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-09-24 09:17:41,340 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-09-24 09:17:41,345 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-09-24 09:17:41,346 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-09-24 09:17:41,348 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-09-24 09:17:41,350 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-09-24 09:17:41,352 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-09-24 09:17:41,355 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-09-24 09:17:41,358 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-09-24 09:17:41,359 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-09-24 09:17:41,370 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-09-24 09:17:41,372 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-09-24 09:17:41,373 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-09-24 09:17:41,373 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-09-24 09:17:41,376 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-09-24 09:17:41,379 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-09-24 09:17:41,381 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-09-24 09:17:41,384 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-09-24 09:17:41,386 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-09-24 09:17:41,389 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-09-24 09:17:41,389 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-09-24 09:17:41,396 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-09-24 09:17:41,399 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-09-24 09:17:41,401 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-09-24 09:17:41,403 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-09-24 09:17:49,604 - gemini_service - DEBUG - Received response from Gemini API
+2025-09-24 09:17:49,608 - gemini_service - INFO - Successfully analyzed image - found 4 ingredients and 3 recipes
+2025-09-24 09:17:49,609 - main - INFO - Analysis completed - Ingredients: 4, Recipes: 3
+2025-09-24 09:34:03,635 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 13:15:49,651 - asyncio - DEBUG - Using selector: SelectSelector
+2025-09-25 13:15:49,759 - main - INFO - Starting AI Recipes Backend...
+2025-09-25 13:15:49,759 - main - INFO - Environment: Development
+2025-09-25 13:15:49,759 - main - INFO - Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://10.0.2.2:8000']
+2025-09-25 13:15:49,759 - main - INFO - Testing Gemini API connection...
+2025-09-25 13:15:49,811 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 13:16:15,252 - gemini_service - DEBUG - Calling Gemini API (attempt 1/3)
+2025-09-25 13:16:15,273 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-09-25 13:16:15,288 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-09-25 13:16:15,288 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-09-25 13:16:15,290 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-09-25 13:16:15,294 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-09-25 13:16:15,298 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-09-25 13:16:15,306 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-09-25 13:16:15,308 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-09-25 13:16:15,311 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-09-25 13:16:15,313 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-09-25 13:16:15,316 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-09-25 13:16:15,316 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-09-25 13:16:15,317 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-09-25 13:16:15,319 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-09-25 13:16:15,319 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-09-25 13:16:15,321 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-09-25 13:16:15,322 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-09-25 13:16:15,329 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-09-25 13:16:15,331 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-09-25 13:16:15,333 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-09-25 13:16:15,335 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-09-25 13:16:15,337 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-09-25 13:16:15,337 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-09-25 13:16:15,337 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-09-25 13:16:15,338 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-09-25 13:16:15,341 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-09-25 13:16:15,341 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-09-25 13:16:15,343 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-09-25 13:16:15,348 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-09-25 13:16:15,349 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-09-25 13:16:15,351 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-09-25 13:16:15,352 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-09-25 13:16:15,352 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-09-25 13:16:15,366 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-09-25 13:16:15,368 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-09-25 13:16:15,368 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-09-25 13:16:15,368 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-09-25 13:16:15,370 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-09-25 13:16:15,371 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-09-25 13:16:15,373 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-09-25 13:16:15,375 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-09-25 13:16:15,377 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-09-25 13:16:15,378 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-09-25 13:16:15,378 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-09-25 13:16:15,383 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-09-25 13:16:15,385 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-09-25 13:16:15,387 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-09-25 13:16:15,389 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-09-25 13:16:17,282 - gemini_service - DEBUG - Received response from Gemini API
+2025-09-25 13:16:17,283 - gemini_service - INFO - Successfully analyzed image - found 0 ingredients and 0 recipes
+2025-09-25 13:16:47,607 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 13:25:27,069 - asyncio - DEBUG - Using selector: SelectSelector
+2025-09-25 13:25:27,105 - main - INFO - Starting AI Recipes Backend...
+2025-09-25 13:25:27,106 - main - INFO - Environment: Development
+2025-09-25 13:25:27,107 - main - INFO - Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://10.0.2.2:8000']
+2025-09-25 13:25:27,107 - main - INFO - Testing Gemini API connection...
+2025-09-25 13:25:27,175 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 13:25:55,611 - main - INFO - Shutting down AI Recipes Backend...
+2025-09-25 13:26:13,021 - asyncio - DEBUG - Using selector: SelectSelector
+2025-09-25 13:26:13,057 - main - INFO - Starting AI Recipes Backend...
+2025-09-25 13:26:13,057 - main - INFO - Environment: Development
+2025-09-25 13:26:13,057 - main - INFO - Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://10.0.2.2:8000']
+2025-09-25 13:26:13,057 - main - INFO - Testing Gemini API connection...
+2025-09-25 13:26:13,110 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 13:32:38,796 - asyncio - DEBUG - Using selector: SelectSelector
+2025-09-25 13:32:38,829 - main - INFO - Starting AI Recipes Backend...
+2025-09-25 13:32:38,829 - main - INFO - Environment: Development
+2025-09-25 13:32:38,829 - main - INFO - Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://10.0.2.2:8000']
+2025-09-25 13:32:38,829 - main - INFO - Testing Gemini API connection...
+2025-09-25 13:32:38,892 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 13:33:27,642 - asyncio - DEBUG - Using selector: SelectSelector
+2025-09-25 13:33:27,676 - main - INFO - Starting AI Recipes Backend...
+2025-09-25 13:33:27,676 - main - INFO - Environment: Development
+2025-09-25 13:33:27,677 - main - INFO - Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://10.0.2.2:8000']
+2025-09-25 13:33:27,677 - main - INFO - Testing Gemini API connection...
+2025-09-25 13:33:27,766 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 13:34:21,612 - asyncio - DEBUG - Using selector: SelectSelector
+2025-09-25 13:34:21,643 - main - INFO - Starting AI Recipes Backend...
+2025-09-25 13:34:21,643 - main - INFO - Environment: Development
+2025-09-25 13:34:21,643 - main - INFO - Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://10.0.2.2:8000']
+2025-09-25 13:34:21,643 - main - INFO - Testing Gemini API connection...
+2025-09-25 13:34:21,715 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 13:42:21,593 - asyncio - DEBUG - Using selector: SelectSelector
+2025-09-25 13:42:21,631 - main - INFO - Starting AI Recipes Backend...
+2025-09-25 13:42:21,631 - main - INFO - Environment: Development
+2025-09-25 13:42:21,632 - main - INFO - Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://10.0.2.2:8000']
+2025-09-25 13:42:21,632 - main - INFO - Testing Gemini API connection...
+2025-09-25 13:42:21,694 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 14:46:41,655 - asyncio - DEBUG - Using selector: SelectSelector
+2025-09-25 14:46:41,688 - main - INFO - Starting AI Recipes Backend...
+2025-09-25 14:46:41,689 - main - INFO - Environment: Development
+2025-09-25 14:46:41,689 - main - INFO - Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://10.0.2.2:8000']
+2025-09-25 14:46:41,689 - main - INFO - Testing Gemini API connection...
+2025-09-25 14:46:41,738 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 15:16:03,779 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 15:16:04,154 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 15:16:04,923 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 21:36:22,854 - asyncio - DEBUG - Using selector: SelectSelector
+2025-09-25 21:36:22,963 - main - INFO - Starting AI Recipes Backend...
+2025-09-25 21:36:22,963 - main - INFO - Environment: Development
+2025-09-25 21:36:22,963 - main - INFO - Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://10.0.2.2:8000']
+2025-09-25 21:36:22,963 - main - INFO - Testing Gemini API connection...
+2025-09-25 21:36:23,026 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\nikhil\\Desktop\\ai-recipes\\ai-recipes-backend\\ai-recipes-backend.log')}
+2025-09-25 21:36:46,778 - main - INFO - Shutting down AI Recipes Backend...
