@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     
     # Server Configuration
     host: str = Field(default="0.0.0.0", env="HOST")
-    port: int = Field(default=8000, env="PORT")
+    port: int = Field(default=8000, env="PORT")  # Render will provide this
     debug: bool = Field(default=False, env="DEBUG")
     
     # CORS Configuration

@@ -1,0 +1,47 @@
+# Git files
+.git
+.gitignore
+.github
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Documentation
+*.md
+DEPLOY*.md
+README.md
+SECURITY.md
+
+# Scripts
+*.ps1
+*.bat
+deploy*.ps1
+push*.bat
+
+# Testing
+test_*.py
+validate_*.py
+
+# OS files
+.DS_Store
+Thumbs.db
