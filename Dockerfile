@@ -22,12 +22,12 @@ RUN useradd --create-home --shell /bin/bash app
 RUN chown -R app:app /app
 USER app
 
-# Expose port
+# Expose port - Render will use PORT environment variable
 EXPOSE 8000
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
-    CMD python -c "import requests; requests.get('http://localhost:8000/health')"
+    CMD python -c "import requests; requests.get('http://localhost:8000/health')" || exit 1
 
-# Run the application
-CMD ["python", "main.py"]
+# Run the application with dynamic port from Render
+CMD uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000}
