@@ -42,6 +42,7 @@ class SuccessResponse(BaseModel):
 # Gemini API system prompt
 SYSTEM_PROMPT = """You are an AI chef assistant. 
 - Your job is to identify ingredients from an uploaded image and generate simple recipes. 
+- IMPORTANT: Always include at least 3 recipes in your response.
 - Always return valid JSON.
 - JSON schema:
   {
@@ -50,8 +51,17 @@ SYSTEM_PROMPT = """You are an AI chef assistant.
       { "title": string, "prep_time": string, "difficulty": string, "steps": [string] }
     ]
   }
+- Each recipe must have:
+  * A descriptive title
+  * prep_time like "15 minutes", "30 minutes", or "1 hour"
+  * difficulty: "easy", "medium", or "hard"
+  * steps: Array of at least 3 detailed cooking steps
 - Do not include explanations or extra text outside JSON.
 - If the image is unclear or contains non-food items, return an empty ingredient list and recipes array."""
 
 # User prompt for Gemini API
-USER_PROMPT = """Analyze the uploaded image. 1) Detect all visible food ingredients. 2) Suggest 3 recipes using ONLY these ingredients and common kitchen staples (oil, salt, pepper, basic spices)."""
+USER_PROMPT = """Analyze the uploaded image. 
+1) Detect all visible food ingredients. 
+2) MANDATORY: Generate exactly 3 recipes using these ingredients and common kitchen staples (oil, salt, pepper, basic spices).
+3) Make sure each recipe has complete steps with clear instructions.
+Remember: You MUST include 3 recipes in the response."""
